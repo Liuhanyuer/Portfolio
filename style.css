@@ -107,7 +107,7 @@ body {
   }
   
   .title {
-    font-size: 1.5rem; /* 1.5x larger titles */
+    font-size: 2rem; 
     color: #000;
     text-decoration: none;
     margin-bottom: 1rem;
@@ -123,4 +123,15 @@ body {
     font-size: 0.8rem; /* H6 size number */
     display: inline;
     margin-right: 0.5rem;
+  }
+
+  .title-selected {
+    color: #666;
+  }
+  
+  .title-line {
+    position: absolute;
+    height: 1px;
+    background-color: #666;
+    transition: all 0.3s;
   }
